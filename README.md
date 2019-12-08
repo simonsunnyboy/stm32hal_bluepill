@@ -7,7 +7,7 @@ The MIT License applies. See LICENSE for details.
 
 ## Abstract
 
-This is a build script to compile the STM32 HAL drivers once into a static library for reuse on STm32 "Blue pill" projects.
+This is a build script to compile the STM32 HAL drivers once into a static library for reuse on STM32 "Blue pill" projects.
 
 ## System requirements
 
@@ -27,3 +27,9 @@ The CMakeLists.txt should be setup to use the arm-none-eabi GNU toolchain.
 It is recommended to use a suitable toolchain description file for CMake.
 
 The author uses https://github.com/vpetrigo/arm-cmake-toolchains in particular.
+
+## Usage in your own project
+
+- link the .a file
+- reference the HAL include files in your project
+- reference the CMSIS device specific headers if necessary (some HAL headers require them)
