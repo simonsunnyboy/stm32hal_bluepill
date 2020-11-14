@@ -1,0 +1,84 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="STM32_HAL_Cortex_M3" target="8" version="2">
+  <project Name="STM32_HAL_Cortex_M3">
+    <configuration
+      Name="Common"
+      arm_architecture="v7M"
+      arm_core_type="Cortex-M3"
+      project_directory=""
+      project_type="Library" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_mmc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_msp_template.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_rtc_alarm_template.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_timebase_tim_template.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_crc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dac.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_i2c.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rtc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c" />
+    <file file_name="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c" />
+    <configuration
+      Name="Release"
+      c_additional_options=""
+      c_preprocessor_definitions="STM32F103xB;USE_FULL_LL_DRIVER"
+      c_user_include_directories="/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/STM32F1xx_HAL_Driver/Inc/;/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/CMSIS/Include/;/home/marndt/Projects/STM32_BluePill/STM32_HAL_Cortex_M3/;/opt/STM32CubeMX/Repository/STM32Cube_FW_F1_V1.8.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+      gcc_enable_all_warnings="Yes" />
+  </project>
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+</solution>
